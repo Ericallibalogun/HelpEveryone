@@ -7,7 +7,7 @@
 body{
   width: 110em;
   border:1px solid black;
-  margin : 0 auto;
+  margin: auto;
 }
 nav {
     display: flex;
@@ -60,7 +60,8 @@ nav {
 
 .container{
     display: flex;
-    margin-top:70px;
+    margin-top:30px;
+    height: 520px;
 
 }
 .header-info{
@@ -74,7 +75,7 @@ body{
     padding-left: 20px;
 }
 .header-image{
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .callToAction{
     display:flex;
@@ -90,6 +91,20 @@ body{
     box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
 }
 .callToAction-text{
-    background-color: red;
-    align-items: center;
+    background-color: inherit;
+    color: black;
+    border:1px solid white;
+    height: 50px;
+    width: 150px;
+}
+.Story-btn{
+    transform: translateY(0px);
+}
+.about-us h1{
+    transform: translateY(-20px);
+    text-align: center;
+}
+.about-us p{
+    text-align: center;
+    margin: 2px;
 }
