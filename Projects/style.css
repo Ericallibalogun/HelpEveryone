@@ -84,11 +84,12 @@ body{
 }
 .primary-button{
     color:inherit;
-    height: 50px;
-    width: 150px;
+    width: 182px;
+    height: 62px;
     border: none;
     background-color: #2995E2;
     box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+    margin-left: -190px;
 }
 .callToAction-text{
     background-color: inherit;
@@ -97,14 +98,100 @@ body{
     height: 50px;
     width: 150px;
 }
-.Story-btn{
+.Story-btn {
     transform: translateY(0px);
+    background-color: inherit;
+    border-color: whitesmoke;
+    margin-left: 0;
 }
 .about-us h1{
-    transform: translateY(-20px);
+    font-family: 'Ubuntu', sans-serif;
+    transform: translateY(-5px);
     text-align: center;
 }
 .about-us p{
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 2px;
+    line-height: 40px;
 }
+.sun{
+    margin-left: -250px;
+}
+/*.tents{*/
+/*    float: unset;*/
+/*    margin-right: 300px;*/
+/*    margin-top: 50px;*/
+/*}*/
+.section-1-title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    color: #2995E2;
+    font-size: 40px ;
+}
+.section-1-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.section-1-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    bottom: 0;
+}
+.subtext1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.image1{
+    position: relative;
+    bottom:70px;
+}
+.sec1-btn{
+    transform: translateY(-160px);
+    width: 182px;
+    height: 62px;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+}
+.section-2-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    bottom: 0;
+}
+.section-2-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.image2{
+    position: relative;
+    bottom:120px;
+}
+.sec2-btn{
+    width: 182px;
+    height: 62px;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+    float:right;
+    transform: translateY(-190px);
+    margin-right: 250px;
+
+}
+
+
+
