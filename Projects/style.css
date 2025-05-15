@@ -1,20 +1,19 @@
-{
+*{
     margin : 0;
-    padding : 0;box-sizing: border-box;
+    padding : 0;
+    box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
 
-body{
-  width: 110em;
-  border:1px solid black;
-  margin: auto;
-}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:20px 70px;
 }
+
+
+
 .logo img{
     width:200px;
     cursor: pointer;
@@ -37,10 +36,15 @@ nav {
     gap: 50px;
 }
 .btn-secondary button {
-    height: 50px;
-    width: 150px;
+    padding: 20px 40px;
     border: 1px solid #000;
     background-color: inherit;
+}
+
+.btn-secondary button:hover {
+    background-color: mediumspringgreen;
+    cursor: pointer;
+    transition: 0.7s;
 }
 .header-info h1{
     padding-bottom: 50px ;
@@ -48,7 +52,6 @@ nav {
     font-weight: 700;
     font-size: 60px;
     line-height: 93px;
-    width: 700%;
     text-align: left;
 }
 .textOne-color{
@@ -118,11 +121,11 @@ body{
 .sun{
     margin-left: -250px;
 }
-/*.tents{*/
-/*    float: unset;*/
-/*    margin-right: 300px;*/
-/*    margin-top: 50px;*/
-/*}*/
+.tents{
+    float: unset;
+    margin-right: 300px;
+    margin-top: 50px;
+}
 .section-1-title{
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
